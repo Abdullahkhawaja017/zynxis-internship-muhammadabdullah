@@ -1,9 +1,23 @@
-# Week 1 - Python & Exploratory Data Analysis
+# Week 1 - Exploratory Data Analysis (EDA)
 
-This folder contains my Week 1 internship task.
+## Objective
 
-## Contents
-- Jupyter Notebook (.ipynb)
-- Dataset (.csv)
-- Findings Report (.pdf)
-- Visualizations
+Perform Exploratory Data Analysis (EDA) on the Titanic dataset by cleaning the data, handling missing values, and generating meaningful visualizations.
+
+## Files
+
+- Week1_EDA.ipynb
+- titanic.csv
+- findings_report.pdf
+- visualizations/
+
+## Libraries Used
+
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+## Outcome
+
+The dataset was successfully explored and cleaned. Five visualizations were created to understand passenger survival, age distribution, passenger class, gender-based survival, and feature correlations.
