@@ -4,27 +4,33 @@
 
 - **Name:** Muhammad Abdullah
 - **Domain:** Artificial Intelligence & Machine Learning
-- **Duration:** 8 Weeks
 - **Organization:** Zynxis
+- **Duration:** 8 Weeks
+
+---
+
+## 📌 About This Repository
+
+This repository contains all tasks completed during my 8-week AI/ML Internship at Zynxis. Each week's work is organized into a separate folder and includes notebooks, datasets, reports, visualizations, and project files.
 
 ---
 
 ## 📅 Weekly Progress
 
-| Week | Topic | Status |
-|------|------------------------------|--------------|
-| Week 1 | Python & Exploratory Data Analysis | ⏳ Not Started |
+| Week | Task | Status |
+|------|-----------------------------------------------|----------------|
+| Week 1 | Python & Exploratory Data Analysis (EDA) | ✅ Completed |
 | Week 2 | Data Preprocessing & Feature Engineering | ⏳ Not Started |
 | Week 3 | Classification Models | ⏳ Not Started |
 | Week 4 | Regression Models | ⏳ Not Started |
 | Week 5 | Clustering | ⏳ Not Started |
-| Week 6 | Natural Language Processing | ⏳ Not Started |
-| Week 7 | Model Deployment | ⏳ Not Started |
-| Week 8 | Final Capstone Project | ⏳ Not Started |
+| Week 6 | Natural Language Processing (NLP) | ⏳ Not Started |
+| Week 7 | Model Deployment (Streamlit/Flask) | ⏳ Not Started |
+| Week 8 | Final AI/ML Capstone Project | ⏳ Not Started |
 
 ---
 
-## 🛠 Technologies
+## 🛠️ Technologies & Libraries
 
 - Python
 - Pandas
@@ -32,27 +38,40 @@
 - Matplotlib
 - Seaborn
 - Scikit-learn
-- NLTK
-- spaCy
+- Jupyter Notebook
 - Streamlit
 - Flask
-- Jupyter Notebook
+- Git & GitHub
 
 ---
 
-## 📁 Repository Structure
+## 📂 Repository Structure
 
 ```
-Week_1_Python_EDA
-Week_2_Data_Preprocessing
-Week_3_Classification_Model
-Week_4_Regression_Model
-Week_5_Clustering
-Week_6_NLP
-Week_7_Model_Deployment
-Week_8_Final_Capstone
+Week_1_Python_EDA/
+Week_2_Data_Preprocessing/
+Week_3_Classification_Model/
+Week_4_Regression_Model/
+Week_5_Clustering/
+Week_6_NLP/
+Week_7_Model_Deployment/
+Week_8_Final_Capstone/
 ```
 
 ---
 
-This repository contains all tasks completed during my 8-week AI/ML Internship at Zynxis.
+## 🎯 Internship Objective
+
+The goal of this internship is to strengthen my understanding of Artificial Intelligence and Machine Learning by completing hands-on tasks in data analysis, preprocessing, supervised learning, unsupervised learning, natural language processing, model deployment, and building an end-to-end AI project.
+
+---
+
+## 🚀 Progress
+
+- ✅ Repository Created
+- ✅ Week 1 Completed
+- 🔄 Remaining Weeks In Progress
+
+---
+
+**Author:** Muhammad Abdullah
