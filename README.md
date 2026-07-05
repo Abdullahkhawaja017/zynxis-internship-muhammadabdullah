@@ -20,7 +20,7 @@ This repository contains all tasks completed during my 8-week AI/ML Internship a
 | Week | Task | Status |
 |------|-----------------------------------------------|----------------|
 | Week 1 | Python & Exploratory Data Analysis (EDA) | ✅ Completed |
-| Week 2 | Data Preprocessing & Feature Engineering | ⏳ Not Started |
+| Week 2 | Data Preprocessing & Feature Engineering | ✅ Completed  |
 | Week 3 | Classification Models | ⏳ Not Started |
 | Week 4 | Regression Models | ⏳ Not Started |
 | Week 5 | Clustering | ⏳ Not Started |
