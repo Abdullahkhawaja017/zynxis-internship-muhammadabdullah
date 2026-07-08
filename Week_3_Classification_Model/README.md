@@ -15,6 +15,13 @@ Build and compare machine learning classification models using the cleaned Titan
 - Selected features and target variable
 - Split data into training and testing sets
 
+
+### ✅ Day 2 Completed
+
+- Trained Logistic Regression model
+- Generated predictions
+- Evaluated model using Accuracy, Precision, Recall, and F1 Score
+- Created and analyzed the Confusion Matrix
 ## Next Steps
 
 - Train Logistic Regression model
