@@ -1,34 +1,41 @@
-# Week 3 - Classification Model
+# Week 3 - Supervised Learning (Classification)
 
 ## Objective
 
-Build and compare machine learning classification models using the cleaned Titanic dataset.
+Develop and compare multiple machine learning classification models using the cleaned Titanic dataset.
 
-## Progress
+## Tasks Completed
 
-### ✅ Day 1 Completed
-
-- Created project notebook
 - Loaded cleaned dataset
-- Explored the dataset
-- Verified missing values
 - Selected features and target variable
-- Split data into training and testing sets
-
-
-### ✅ Day 2 Completed
-
-- Trained Logistic Regression model
-- Generated predictions
-- Evaluated model using Accuracy, Precision, Recall, and F1 Score
-- Created and analyzed the Confusion Matrix
-## Next Steps
-
-- Train Logistic Regression model
-- Evaluate Accuracy, Precision, Recall and F1 Score
-- Compare multiple classification models
+- Split dataset into training and testing sets
+- Implemented Logistic Regression
+- Implemented Decision Tree
+- Implemented Random Forest
+- Evaluated all models using:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1 Score
+- Generated Confusion Matrices
+- Compared model performance
+- Selected the best-performing model
 
 ## Files
 
 - Week3_Classification.ipynb
 - cleaned_titanic.csv
+- model_comparison.csv
+- visualizations/
+
+## Libraries Used
+
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Outcome
+
+Successfully trained and evaluated three classification models and identified the best-performing classifier using multiple evaluation metrics.
