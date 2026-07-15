@@ -15,6 +15,14 @@ Build and compare multiple regression models using the California Housing datase
 - Selected features and target
 - Split dataset into training and testing sets
 
+
+### ✅ Day 3 Completed
+
+- Trained Ridge Regression model
+- Generated predictions
+- Evaluated using MAE, MSE and R² Score
+- Compared with Linear Regression
+
 ## Files
 
 - Week4_Regression.ipynb
