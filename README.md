@@ -22,7 +22,7 @@ This repository contains all tasks completed during my 8-week AI/ML Internship a
 | Week 1 | Python & Exploratory Data Analysis (EDA) | ✅ Completed |
 | Week 2 | Data Preprocessing & Feature Engineering | ✅ Completed  |
 | Week 3 | Classification Models | ✅ Completed |
-| Week 4 | Regression Models | ⏳  Started |
+| Week 4 | Regression Models |✅ Completed  |
 | Week 5 | Clustering | ⏳ Not Started |
 | Week 6 | Natural Language Processing (NLP) | ⏳ Not Started |
 | Week 7 | Model Deployment (Streamlit/Flask) | ⏳ Not Started |
@@ -68,9 +68,12 @@ The goal of this internship is to strengthen my understanding of Artificial Inte
 
 ## 🚀 Progress
 
-- ✅ Repository Created
-- ✅ Week 1 Completed
-- 🔄 Remaining Weeks In Progress
+✅ Repository Created
+✅ Week 1 Completed
+✅ Week 2 Completed
+✅ Week 3 Completed
+✅ Week 4 Completed
+🔄 Remaining Weeks In Progress
 
 ---
 
