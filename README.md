@@ -23,7 +23,7 @@ This repository contains all tasks completed during my 8-week AI/ML Internship a
 | Week 2 | Data Preprocessing & Feature Engineering | ✅ Completed  |
 | Week 3 | Classification Models | ✅ Completed |
 | Week 4 | Regression Models |✅ Completed  |
-| Week 5 | Clustering | ⏳ Not Started |
+| Week 5 | Clustering | 🟢 In Progress |
 | Week 6 | Natural Language Processing (NLP) | ⏳ Not Started |
 | Week 7 | Model Deployment (Streamlit/Flask) | ⏳ Not Started |
 | Week 8 | Final AI/ML Capstone Project | ⏳ Not Started |
