@@ -32,6 +32,13 @@ Mall Customers Dataset
 
 ✔ Displayed cluster centers
 
+Updated tasks:
+
+- Implemented Hierarchical Clustering
+- Assigned customer cluster labels
+- Visualized hierarchical clusters
+- Compared cluster sizes with K-Means
+- Created a comparison chart
 ---
 
 The K-Means clustering model has been successfully implemented and is ready for comparison with another clustering technique.
