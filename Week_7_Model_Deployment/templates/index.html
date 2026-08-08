@@ -7,50 +7,145 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sentinel AI</title>
+    <title>Sentinel AI | Threat Analyzer</title>
 
-    <link rel="stylesheet"
-          href="{{ url_for('static', filename='style.css') }}">
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
 
 </head>
 
 <body>
 
-    <h1>🛡️ Sentinel AI</h1>
+    <main class="container">
 
-    <h2>Smart Email & SMS Threat Analyzer</h2>
+        <!-- Header -->
 
-    <p>Paste your SMS or email below:</p>
+        <header class="header">
 
-    <form action="/predict" method="POST">
+            <div class="logo">
 
-        <textarea
-            name="message"
-            placeholder="Paste your message here..."
-            rows="10"
-            cols="60"
-            required>{{ message if message else "" }}</textarea>
+                <div class="logo-icon">
+                    🛡️
+                </div>
 
-        <br><br>
+                <span>Sentinel AI</span>
 
-        <button type="submit">
-            Analyze Message
-        </button>
+            </div>
 
-    </form>
+            <h1>
+                <span class="gradient-text">
+                    Detect threats.
+                </span>
+                <br>
+                Protect your inbox.
+            </h1>
 
-    {% if prediction %}
+            <p>
+                Analyze suspicious SMS messages and emails using
+                machine learning-powered text classification.
+            </p>
 
-        <h2>Analysis Result</h2>
+        </header>
 
-        <p>
-            Prediction:
-            <strong>{{ prediction }}</strong>
-        </p>
 
-    {% endif %}
+        <!-- Analyzer -->
 
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+        <section class="analyzer-card">
+
+            <form
+                action="/predict"
+                method="POST"
+                id="analyzerForm"
+            >
+
+                <div class="textarea-wrapper">
+
+                    <textarea
+                        id="messageInput"
+                        name="message"
+                        placeholder="Paste your email or SMS message here..."
+                        required
+                    >{{ message if message else "" }}</textarea>
+
+                </div>
+
+
+                <div class="input-footer">
+
+                    <span>
+                        🔒 Your message is analyzed locally
+                    </span>
+
+                    <span id="characterCount">
+                        0 characters
+                    </span>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="analyze-button"
+                >
+                    Analyze Message →
+                </button>
+
+            </form>
+
+
+            {% if prediction %}
+
+            <div class="result-card">
+
+                <div class="result-label">
+                    Analysis Result
+                </div>
+
+                <div class="result-value">
+                    {{ prediction }}
+                </div>
+
+            </div>
+
+            {% endif %}
+
+        </section>
+
+    </main>
+
+
+    <!-- Loading Overlay -->
+
+    <div
+        class="loading-overlay"
+        id="loadingOverlay"
+    >
+
+        <div class="loading-content">
+
+            <div class="loader"></div>
+
+            <h2 id="loadingTitle">
+                Analyzing message
+            </h2>
+
+            <p
+                class="loading-message"
+                id="loadingMessage"
+            >
+                Initializing AI engine...
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script
+        src="{{ url_for('static', filename='script.js') }}"
+    ></script>
 
 </body>
 
