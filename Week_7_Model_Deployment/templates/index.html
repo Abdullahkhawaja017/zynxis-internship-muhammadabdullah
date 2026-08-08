@@ -9,7 +9,8 @@
 
     <title>Sentinel AI</title>
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
 
 </head>
 
@@ -19,7 +20,35 @@
 
     <h2>Smart Email & SMS Threat Analyzer</h2>
 
-    <p>Week 7 - Model Deployment</p>
+    <p>Paste your SMS or email below:</p>
+
+    <form action="/predict" method="POST">
+
+        <textarea
+            name="message"
+            placeholder="Paste your message here..."
+            rows="10"
+            cols="60"
+            required>{{ message if message else "" }}</textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Analyze Message
+        </button>
+
+    </form>
+
+    {% if prediction %}
+
+        <h2>Analysis Result</h2>
+
+        <p>
+            Prediction:
+            <strong>{{ prediction }}</strong>
+        </p>
+
+    {% endif %}
 
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 
